@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const Settings = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end p-6 md:pl-70">
+    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end p-6">
       <div className="max-w-4xl mx-auto space-y-6 animate-fade-in">
         {/* Header */}
         <div>

@@ -56,7 +56,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end flex flex-col md:pl-64">
+    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end flex flex-col">
       {/* Header */}
       <header className="bg-card/80 backdrop-blur-sm border-b border-border px-4 py-4 md:px-6 md:py-6">
         <div className="max-w-4xl mx-auto flex items-center gap-3">
