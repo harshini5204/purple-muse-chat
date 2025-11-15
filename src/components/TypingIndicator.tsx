@@ -1,3 +1,5 @@
+import React from "react";
+
 const TypingIndicator = () => {
   return (
     <div className="flex w-full justify-start animate-fade-in">

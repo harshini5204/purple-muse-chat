@@ -1,6 +1,6 @@
+import React, { useState } from "react";
 import { NavLink } from "@/components/NavLink";
 import { MessageSquare, User, History, Settings, Menu, X } from "lucide-react";
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const Sidebar = () => {
