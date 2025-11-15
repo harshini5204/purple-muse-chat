@@ -52,6 +52,8 @@ export default {
         "gradient-start": "hsl(var(--gradient-start))",
         "gradient-mid": "hsl(var(--gradient-mid))",
         "gradient-end": "hsl(var(--gradient-end))",
+        "sidebar-bg": "hsl(var(--sidebar-bg))",
+        "sidebar-hover": "hsl(var(--sidebar-hover))",
       },
       borderRadius: {
         lg: "var(--radius)",

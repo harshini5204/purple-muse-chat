@@ -56,7 +56,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end flex flex-col md:pl-64">
       {/* Header */}
       <header className="bg-card/80 backdrop-blur-sm border-b border-border px-4 py-4 md:px-6 md:py-6">
         <div className="max-w-4xl mx-auto flex items-center gap-3">
@@ -64,7 +64,7 @@ const Index = () => {
             <Sparkles className="h-6 w-6 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold text-foreground">AI Chat Assistant</h1>
+            <h1 className="text-xl md:text-2xl font-bold text-foreground">AI Chat</h1>
             <p className="text-sm text-muted-foreground">Your intelligent conversation partner</p>
           </div>
         </div>
