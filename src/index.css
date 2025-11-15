@@ -8,79 +8,85 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 270 60% 98%;
-    --foreground: 270 15% 10%;
+    --background: 260 55% 97%;
+    --foreground: 260 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 270 15% 10%;
+    --card-foreground: 260 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 270 15% 10%;
+    --popover-foreground: 260 20% 15%;
 
-    --primary: 270 70% 60%;
+    --primary: 260 60% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 40% 92%;
-    --secondary-foreground: 270 15% 10%;
+    --secondary: 260 40% 94%;
+    --secondary-foreground: 260 20% 20%;
 
-    --muted: 270 30% 95%;
-    --muted-foreground: 270 10% 45%;
+    --muted: 260 35% 96%;
+    --muted-foreground: 260 15% 50%;
 
-    --accent: 280 65% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 270 55% 75%;
+    --accent-foreground: 260 20% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 270 20% 90%;
-    --input: 270 20% 90%;
-    --ring: 270 70% 60%;
+    --border: 260 25% 92%;
+    --input: 260 25% 92%;
+    --ring: 260 60% 70%;
 
     --radius: 1rem;
 
-    --gradient-start: 270 80% 70%;
-    --gradient-mid: 280 75% 65%;
-    --gradient-end: 290 70% 60%;
+    --gradient-start: 260 70% 85%;
+    --gradient-mid: 270 65% 80%;
+    --gradient-end: 280 60% 85%;
 
-    --user-message: 270 70% 60%;
+    --user-message: 260 60% 70%;
     --ai-message: 0 0% 100%;
+    
+    --sidebar-bg: 260 50% 98%;
+    --sidebar-hover: 260 45% 94%;
   }
 
   .dark {
-    --background: 270 30% 8%;
-    --foreground: 270 20% 95%;
+    --background: 260 30% 10%;
+    --foreground: 260 20% 90%;
 
-    --card: 270 25% 12%;
-    --card-foreground: 270 20% 95%;
+    --card: 260 25% 14%;
+    --card-foreground: 260 20% 90%;
 
-    --popover: 270 25% 12%;
-    --popover-foreground: 270 20% 95%;
+    --popover: 260 25% 14%;
+    --popover-foreground: 260 20% 90%;
 
-    --primary: 270 70% 65%;
-    --primary-foreground: 270 30% 8%;
+    --primary: 260 60% 65%;
+    --primary-foreground: 260 30% 10%;
 
-    --secondary: 270 25% 18%;
-    --secondary-foreground: 270 20% 95%;
+    --secondary: 260 25% 20%;
+    --secondary-foreground: 260 20% 90%;
 
-    --muted: 270 25% 15%;
-    --muted-foreground: 270 15% 60%;
+    --muted: 260 25% 18%;
+    --muted-foreground: 260 15% 60%;
 
-    --accent: 280 65% 60%;
-    --accent-foreground: 270 20% 95%;
+    --accent: 270 55% 70%;
+    --accent-foreground: 260 20% 90%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 270 20% 95%;
+    --destructive-foreground: 260 20% 90%;
 
-    --border: 270 20% 20%;
-    --input: 270 20% 20%;
-    --ring: 270 70% 65%;
+    --border: 260 20% 22%;
+    --input: 260 20% 22%;
+    --ring: 260 60% 65%;
 
-    --gradient-start: 270 60% 40%;
-    --gradient-mid: 280 55% 38%;
-    --gradient-end: 290 50% 35%;
+    --gradient-start: 260 50% 25%;
+    --gradient-mid: 270 45% 22%;
+    --gradient-end: 280 40% 25%;
 
-    --user-message: 270 70% 55%;
-    --ai-message: 270 25% 15%;
+    --user-message: 260 60% 60%;
+    --ai-message: 260 25% 18%;
+    
+    --sidebar-bg: 260 30% 12%;
+    --sidebar-hover: 260 25% 18%;
   }
 }
 
