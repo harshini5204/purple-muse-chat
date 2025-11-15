@@ -52,8 +52,16 @@ export default {
         "gradient-start": "hsl(var(--gradient-start))",
         "gradient-mid": "hsl(var(--gradient-mid))",
         "gradient-end": "hsl(var(--gradient-end))",
-        "sidebar-bg": "hsl(var(--sidebar-bg))",
-        "sidebar-hover": "hsl(var(--sidebar-hover))",
+        sidebar: {
+          DEFAULT: "hsl(var(--sidebar-background))",
+          foreground: "hsl(var(--sidebar-foreground))",
+          primary: "hsl(var(--sidebar-primary))",
+          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
+          accent: "hsl(var(--sidebar-accent))",
+          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
+          border: "hsl(var(--sidebar-border))",
+          ring: "hsl(var(--sidebar-ring))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
